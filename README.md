@@ -7,4 +7,6 @@
 
 * Plugin also supports JSON format chat.<br>
 
-<b>I coded this plugin back in 2015. My code might not be good.</b>
+<b>I coded this plugin back in 2015. My code might not be good.</b> <br>
+
+<b>The plugin uses Yandex Translator API for translation.</b>
