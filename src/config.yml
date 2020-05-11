@@ -1,0 +1,37 @@
+# To get the translator-key, please visit https://tech.yandex.com/keys/get/?service=trnsl
+translator-key: ''
+
+# Keep the translator mode "ON" unless disabled by a command.
+keep-translator: true
+
+# List of commands, that you wish to translate.
+# For example, while you are in translator mode from English to Dutch:
+# "/bc Hello" will be changed to "/bc Hallo".
+
+# Command ; Start translation from argument.
+# "/bc hello". "hello" is argument 1.
+
+commands:
+- /bc ; 1
+
+# Default language for server. It will auto translate all messages for players to this language.
+
+enable-default-language: true
+default-language: english
+
+# Format of translated message received from "/language <language>" command.
+# Placeholders: 
+# - '{DISPLAY_NAME}' : Returns display name of player (including prefix, suffix, nick etc.)
+# - '{MESSAGE}' : Returns the translated text.
+
+format: '{DISPLAY_NAME} &8&l>> &7{MESSAGE}'
+
+# Configuration for MySQL database.
+# If your host doesn't tell your port, leave the default port.
+
+use-sql: false
+database-name: 'example'
+username: 'username'
+password: 'password'
+host: 'localhost'
+port: '3306'

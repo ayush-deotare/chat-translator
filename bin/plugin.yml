@@ -1,0 +1,21 @@
+name: ChatTranslatorPlus
+version: 6.4
+main: me.ayush_03.chattranslationplus.Main
+description: Translate the chat!
+
+commands:
+   translator:
+         usage: /translator
+         description: Translation command.
+         
+   translate:
+         usage: /translate [from] [to] [message]
+         description: Instant translation command.
+         
+   chat:
+         usage: /chat <player> (language_from) (language_to) [message]
+         description: Private message to player with translation.
+         
+   language:
+         usage: /language <language>
+         description: Auto translates the messages to selected language.

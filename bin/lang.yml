@@ -1,0 +1,26 @@
+# Message sent when a command is only able to be executed by players.
+only-players: '&cOnly players can execute this command.'
+
+# Message sent when a player already have disabled translator mode. ("/translator disable")
+translator-already-disabled: '&7[&2ChatTranslatorPlus&7] &cYour translation is already disabled.'
+
+# Message sent when translator mode has been disabled. ("/translator disable")
+translator-disabled: '&7[&2ChatTranslatorPlus&7] &aSuccessfully disabled your translation.'
+
+# Message sent when config of the plugin is reloaded. ("/translator reload")
+config-reload: '&7[&2ChatTranslatorPlus&7] &aSuccessfully reloaded config.'
+
+# Message sent when translator mode has been enabled. ("/translator %lang_from% %lang_to")
+translator-enabled: '&7[&2ChatTranslatorPlus&7] &aTranslation has been set from %lang_from% to %lang_to%.'
+
+# Message sent when auto translation is disabled. ("/language disable")
+auto_translation-disabled: '&7[&2ChatTranslatorPlus&7] &aAuto translation has been disabled.'
+
+# Message sent when auto translation is enabled. ("/language %lang")
+auto_translation-enabled: '&7[&2ChatTranslatorPlus&7] &6All messages will now be translated to the language &e"%lang%" &6for you.'
+
+# Message sent when auto translation is already disabled. ("/language disable")
+auto_translation-already-disabled: '&7[&2ChatTranslatorPlus&7] &cYou do not have auto translation enabled.'
+
+# Message sent when player is not online.
+player-not-online: '&7[&2ChatTranslatorPlus&7] &c%player% is not online.'
