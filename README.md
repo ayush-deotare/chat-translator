@@ -1,5 +1,5 @@
 # chat-translator
-* Translates the messages players send in the server chat to the desired language. <br>
+* Translates the messages players send in the Minecraft server chat to the desired language. <br>
 
 * Players can setup a personal language so that all the messages being sent to them are always in their personal language.<br>
 
