@@ -4,10 +4,9 @@ import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 import org.bukkit.Bukkit;
 
-public class Reflection
-{
-  public static String getVersion()
-  {
+public class Reflection {
+
+  public static String getVersion()  {
     String name = Bukkit.getServer().getClass().getPackage().getName();
     String version = name.substring(name.lastIndexOf('.') + 1) + ".";
     return version;
@@ -56,8 +55,8 @@ public static Class<?> getOBCClass(String className) {
     }return null;
   }
 
-  public static Method getMethod(Class<?> clazz, String name, Class<?>[] args)
-  {
+  public static Method getMethod(Class<?> clazz, String name, Class<?>[] args)  {
+ 
     for (Method m : clazz.getMethods())
       if ((m.getName().equals(name)) && ((args.length == 0) || (ClassListEqual(args, m.getParameterTypes())))) {
         m.setAccessible(true);
