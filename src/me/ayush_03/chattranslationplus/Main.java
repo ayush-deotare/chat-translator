@@ -45,9 +45,9 @@ public class Main extends JavaPlugin {
 		try {
             Class.forName("com.mysql.jdbc.Driver");
             connection = DriverManager.getConnection(DB_NAME,USER,PASS);
-            getServer().getConsoleSender().sendMessage("§aSuccessfully connected to sql server!");
+            getServer().getConsoleSender().sendMessage("Â§aSuccessfully connected to sql server!");
         } catch (Exception e) {
-        	getServer().getConsoleSender().sendMessage("§cCould connect to sql server!");
+        	getServer().getConsoleSender().sendMessage("Â§cCould connect to sql server!");
         }
 		addLangs();
 		getCommand("translator").setExecutor(new Cmd(this));
@@ -145,14 +145,11 @@ public class Main extends JavaPlugin {
 	}
 	
 	public void enabled() {
-		getServer().getConsoleSender().sendMessage(prefix + " §aChatTranslatorPlus v" + getDescription().getVersion() + " has been enabled.");
+		getServer().getConsoleSender().sendMessage(prefix + " Â§aChatTranslatorPlus v" + getDescription().getVersion() + " has been enabled.");
 	}
 	
 	public void disabled() {
-		
-		getServer().getConsoleSender().sendMessage(prefix + " §cChatTranslatorPlus v" + getDescription().getVersion() + " has been disabled.");
-
-		
+		getServer().getConsoleSender().sendMessage(prefix + " Â§cChatTranslatorPlus v" + getDescription().getVersion() + " has been disabled.");
 	}
 	
 	public void saveDefaultLang() {
