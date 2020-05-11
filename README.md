@@ -5,7 +5,7 @@
 
 * Ability to translate the text written on the Sign Post.<br>
 
-* Plugin also supports JSON format chat.<br>
+* Plugin also supports JSON formatted chat (hoverable and clickable messages).<br>
 
 <b>I coded this plugin back in 2015. My code might not be good.</b> <br>
 
